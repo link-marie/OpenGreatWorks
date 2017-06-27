@@ -14,6 +14,14 @@ https://play.google.com/store/apps/details?id=com.linknext.greatworks
 # Setup
 Just download master project and build with Android Studio
 
+# Acknowledgement
+
+This application is using the modified following great works
+- [ListViewAnimations](https://github.com/nhaarman/ListViewAnimations) 
+- [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids) 
+- [ObservableScreenView](https://github.com/ksoichiro/Android-ObservableScrollView)
+- [SlidingTutorial](https://github.com/Cleveroad/SlidingTutorial-Android)
+
 
 # Developed By
 Marie Rijk <rijkmarie@gmail.com>
