@@ -3,11 +3,13 @@
 This project is a framework of "GreatWorks" application to understand how the app is constructed.
 
 [![Play Store Badge](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.linknext.greatworks)
+
 [Greatworks](https://play.google.com/store/apps/details?id=com.linknext.greatworks)
+
 https://play.google.com/store/apps/details?id=com.linknext.greatworks
 
 
-![GrateWorks framework](https://goo.gl/vVqoEn)
+![GrateWorks framework](https://lh3.googleusercontent.com/pf_7e0A6Vl9ROwB7gusQahMFtLqhP_giw9UlojA8OjJ_XH9N2aFcDqx6dkcVxaBPdUd4E5Ed_6GOgUXrAXUYulNFdmN_DwBW6GemZXzHJFKOT70x_5WkVwK4LSXsdm679kCI9y0=w400-h640-no)
 
 # Setup
 Just download master project and build with Android Studio
