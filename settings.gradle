@@ -1,0 +1,11 @@
+include ':appGreatWorks'
+include ':libGreatWorks'
+include ':libOpenAndroid'
+
+include ':libNineOldAndroids'
+include ':libListViewAnimationCore'
+include ':libListViewAnimationManipulation'
+include ':libListViewAnimationStickyHeader'
+include ':libStickiyList'
+include ':libObservableScrollView'
+include ':libSlidingTutorial'
