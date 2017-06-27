@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootFirstPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_transparent_dark2"
+    tools:ignore="ContentDescription"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@mipmap/inst_main_1"
+
+        app:layout_heightPercent="35%"
+        app:layout_marginLeftPercent="50%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="50%"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@mipmap/inst_main_2"
+
+        app:layout_heightPercent="40%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="40%"/>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@mipmap/inst_main_3"
+
+        app:layout_heightPercent="20%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="49%"
+        app:layout_widthPercent="30%"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:src="@mipmap/inst_main_4"
+
+        app:layout_heightPercent="42%"
+        app:layout_marginLeftPercent="14%"
+        app:layout_marginTopPercent="50%"
+        app:layout_widthPercent="80%"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="@string/dont_show_me_again"/>
+
+    <TextView
+        android:id="@+id/textTouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/checkBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+
+        android:gravity="center"
+        android:lines="2"
+        android:text="Touch somewhere\nto hide the instruction"
+        android:textSize="@dimen/intro_text_size_mid"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="75%"/>
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="intro_text_size_mid">20sp</dimen>
+    <dimen name="intro_text_size_large">28sp</dimen>
+    <dimen name="intro_indicator_size">10dp</dimen>
+    <dimen name="intro_indicator_spacing">2dp</dimen>
+</resources>
