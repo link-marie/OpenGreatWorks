@@ -16,7 +16,7 @@ Just download master project and build with Android Studio
 
 # Acknowledgement
 
-This application is using the modified following great works
+This application uses the modified following great works
 - [ListViewAnimations](https://github.com/nhaarman/ListViewAnimations) 
 - [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids) 
 - [ObservableScreenView](https://github.com/ksoichiro/Android-ObservableScrollView)
