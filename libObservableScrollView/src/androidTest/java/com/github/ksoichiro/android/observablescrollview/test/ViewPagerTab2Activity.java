@@ -28,7 +28,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 
 import com.github.ksoichiro.android.observablescrollview.CacheFragmentStatePagerAdapter;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
@@ -43,7 +42,7 @@ import com.nineoldandroids.view.ViewHelper;
 public class ViewPagerTab2Activity extends ActionBarActivity implements ObservableScrollViewCallbacks {
 
     private View mToolbarView;
-    private LinearLayout mInterceptionLayout;
+    private FrameLayout mInterceptionLayout;
     private ViewPager mPager;
     private NavigationAdapter mPagerAdapter;
     private int mSlop;
@@ -75,7 +74,7 @@ public class ViewPagerTab2Activity extends ActionBarActivity implements Observab
         ViewConfiguration vc = ViewConfiguration.get(this);
         mSlop = vc.getScaledTouchSlop();
 //        mInterceptionLayout = (TouchInterceptionFrameLayout) findViewById(R.id.container);    // XXX Error while release build
-        mInterceptionLayout = (LinearLayout) findViewById(R.id.container);
+        mInterceptionLayout = (FrameLayout)findViewById(R.id.container);
 //        mInterceptionLayout.setScrollInterceptionListener((mInterceptionListener);
     }
 
